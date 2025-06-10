@@ -30,6 +30,7 @@ cd bcHunt
 
 Python 3 is required to run this tool.
 
+---
 ## ⚙️ Usage
 
 ```bash
@@ -40,6 +41,7 @@ bcHunt.py <sequence file> -b [badchars]
     
 - `-b <badchars>` _(optional)_: A string of known bad characters to exclude (e.g., `"\x00\x0a"`).
 
+---
 ## 🧪 Example
 
 Input:
@@ -66,6 +68,7 @@ Output:
 [+] No Badchars found!!
 ```
 
+---
 ## 🔄 Workflow
 
 - Generate a full payload (e.g., using `msf-pattern_create` or custom script).
@@ -80,10 +83,12 @@ Output:
     
 - Repeat until no badchars are found.
 
+---
 ## 🧰 Use Case
 
 Ideal for penetration testers, exploit developers, or CTF players looking to quickly and reliably identify bad characters during shellcode crafting.
 
+---
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](https://github.com/Sayan690/bcHunt/blob/main/LICENSE) for more info.
