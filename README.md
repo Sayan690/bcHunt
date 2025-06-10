@@ -71,7 +71,7 @@ Output:
 ---
 ## 🔄 Workflow
 
-- Generate a full payload (e.g., using `msf-pattern_create` or custom script).
+- Generate a payload of all possible combinations of characters from '\x01' to '\xff'.
     
 - Inject it via buffer overflow.
     
